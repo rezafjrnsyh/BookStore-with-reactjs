@@ -1,0 +1,5 @@
+.Form-label {
+    display: flex;
+    align-items: start;
+    /*text-align: left;*/
+}
