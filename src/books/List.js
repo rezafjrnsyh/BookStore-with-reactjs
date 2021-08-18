@@ -14,8 +14,8 @@ function List({match}) {
     const retrieveBooks = () => {
         BookService.getAll()
             .then((response) => {
-                setBooks(response.data.Data);
-                console.log(response.data.Data);
+                setBooks(response.data);
+                console.log('data',response.data);
             })
             .catch((e) => {
                 console.log(e);
@@ -56,7 +56,7 @@ function List({match}) {
                     <tr key={i}>
                         <td>{book.id}</td>
                         <td>{book.title}</td>
-                        <td style={{textAlign:"justify"}}>{book.desc}</td>
+                        <td style={{textAlign:"justify"}}>{book.description}</td>
                         <td>{book.year}</td>
                         <td>{book.price}</td>
                         <td>{book.stock}</td>

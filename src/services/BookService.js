@@ -3,10 +3,11 @@ import http from "../http-common"
 const baseUrl = `/book`
 
 const getAll = () => {
-    return http.get(`${baseUrl}/list`)
+    return http.get(`${baseUrl}`)
 }
 
 const create = params => {
+    console.log(params)
     return http.post(`${baseUrl}`, params)
 }
 
@@ -20,7 +21,7 @@ const update = (id, params) => {
 
 const deleteBook = id => {
     console.log("service", id)
-    return http.delete(`/book/${id}`)
+    return http.delete(`${baseUrl}/${id}`)
 }
 
 export default {

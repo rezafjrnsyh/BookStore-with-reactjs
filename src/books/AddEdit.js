@@ -19,8 +19,8 @@ function AddEdit({history, match}) {
         title: Yup.string()
             .required('Title is required')
             .min(6,'title must be at least 6 characters'),
-        desc: Yup.string()
-            .required('Descriptions is required')
+        description: Yup.string()
+            .required('Description is required')
             .min(10,'description must be at least 10 characters'),
         year: Yup.number()
             .required('Year is required')
@@ -45,6 +45,7 @@ function AddEdit({history, match}) {
     });
 
     function createBook(data) {
+        console.log(data)
         return BookService.create(data)
             .then((res) => {
                 // alertService.success('User added', { keepAfterRouteChange: true });
@@ -69,8 +70,8 @@ function AddEdit({history, match}) {
         if (!isAddMode) {
             // get user and set form fields
             BookService.getById(id).then(res => {
-                let book = res.data.data
-                const fields = ['title', 'desc', 'year', 'pages', 'language',
+                let book = res.data
+                const fields = ['title', 'description', 'year', 'pages', 'language',
                 'publisher', 'price','stock'];
                 fields.forEach(field => setValue(field, book[field]));
                 setBook(book);
@@ -96,16 +97,16 @@ function AddEdit({history, match}) {
                         <div className="invalid-feedback">{errors.title?.message}</div>
                         </Col>
                     </Form.Group>
-                    <Form.Group as={Row} className="mb-3" controlId="formBasicDesc">
+                    <Form.Group as={Row} className="mb-3" controlId="formBasicDescription">
                         <Form.Label column sm="2">Description</Form.Label>
                         <Col sm="10">
                         <Form.Control
                             as="textarea"
                             rows={3}
-                            name="desc"
-                            {...register("desc")}  className={`form-control ${errors.desc ? 'is-invalid' : ''}`}
+                            name="description"
+                            {...register("description")}  className={`form-control ${errors.description ? 'is-invalid' : ''}`}
                         />
-                        <div className="invalid-feedback">{errors.desc?.message}</div>
+                        <div className="invalid-feedback">{errors.description?.message}</div>
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3" controlId="formBasicYear">

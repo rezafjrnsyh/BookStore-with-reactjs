@@ -3,6 +3,31 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../../Personal-resume.js/readme1.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Personal-resume.js/readme2.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Personal-resume.js/readme3.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Personal-resume.js/readme4.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Personal-resume.js/readme5.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../covid-19-Tracker/.firebaserc">
           <value>
             <set />
@@ -178,7 +203,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/http-common.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/members/List.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/members/Members.js">
           <value>
             <set />
           </value>
@@ -219,6 +259,51 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Downloads/bug-challenge/utils/Replacer.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/Entity/Member.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/Repository/MemberRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/Service/BookServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/Service/MemberService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/Service/MemberServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/controller/BookController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/controller/MemberController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/controller/TransactionsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/bookStore/src/main/java/com/enigma/bookStore/dto/RequestTransactions.java">
           <value>
             <set />
           </value>
